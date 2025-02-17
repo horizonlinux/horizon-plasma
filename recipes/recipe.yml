@@ -30,9 +30,11 @@ modules:
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - krdp
       - krfb
+      - krfb-libs
       - kwrite
       - kcharselect
       - ark
+      - ark-libs
       - fedora-bookmarks
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
